@@ -143,7 +143,7 @@ main {
   gap: 3rem;
 }
 
-/* Card Styles */
+
 .destination-cards, .consultant-cards {
   display: flex;
   flex-wrap: wrap;
@@ -214,7 +214,7 @@ main {
   background-color: #002e3f;
 }
 
-/* Expertise Areas Styles */
+
 .expertise-areas {
   display: flex;
   flex-wrap: wrap;
@@ -233,11 +233,6 @@ main {
   transition: all 0.3s ease;
 }
 
-/* .expertise-tag:hover {
-  background-color: #00425a;
-  color: white;
-  transform: translateY(-2px);
-} */
 
 .how-it-works {
   margin-bottom: 2rem;
@@ -296,7 +291,7 @@ main {
   font-size: 0.95rem;
 }
 
-/* Aside Styles */
+
 aside {
   margin-top: 2rem;
 }
@@ -341,7 +336,7 @@ aside {
   transform: translateY(-2px);
 }
 
-/* Footer Styles */
+
 footer {
   background-color: #00425a;
   color: white;
@@ -350,7 +345,7 @@ footer {
   margin-top: 3rem;
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 992px) {
   .hero-content {
     flex-direction: column;
