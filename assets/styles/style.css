@@ -180,8 +180,13 @@ main {
   margin-top: 0;
 }
 
+.card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
 .card button {
-  margin-top: auto;
   background-color: #00425a;
   color: white;
   border: none;
@@ -192,9 +197,47 @@ main {
   transition: all 0.3s ease;
 }
 
+.consultant-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.price {
+  color: #00425a;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
 .card button:hover {
   background-color: #002e3f;
 }
+
+/* Expertise Areas Styles */
+.expertise-areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: auto;
+}
+
+.expertise-tag {
+  background-color: #e6f2ff;
+  color: #00425a;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* .expertise-tag:hover {
+  background-color: #00425a;
+  color: white;
+  transform: translateY(-2px);
+} */
 
 .how-it-works {
   margin-bottom: 2rem;
